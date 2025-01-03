@@ -1,0 +1,26 @@
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by FernFlower decompiler)
+//
+
+module java.module {
+    requires javafx.controls;
+    requires javafx.fxml;
+    requires org.controlsfx.controls;
+    requires net.synedra.validatorfx;
+    requires org.kordamp.bootstrapfx.core;
+
+    exports org.example.gui;
+    exports MyFirstApplication;
+    exports TextStatistics;
+    exports Notifier;
+    exports UsersTitle;
+    exports MultipleViews;
+    exports Greeter;
+    exports Joke;
+    exports Dictionary;
+    exports TicTacToe;
+
+    opens org.example.gui to
+        javafx.fxml;
+}
